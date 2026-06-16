@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background: moss green rounded square -->
+  <rect width="200" height="200" rx="44" fill="#2E5339"/>
+  <!-- Subtle inner highlight -->
+  <rect x="1" y="1" width="198" height="198" rx="43" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Letter R — clean geometric form -->
+  <path d="M62 148V52H106C122 52 134 62 134 76C134 86 127 94 116 98L138 148H113L94 102H84V148H62Z
+           M84 66V88H104C111 88 115 84 115 77C115 70 111 66 104 66H84Z"
+        fill="#F5F6F2"/>
+  <!-- Gold accent dot — bottom right -->
+  <circle cx="152" cy="152" r="14" fill="#C68A2E"/>
+</svg>

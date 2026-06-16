@@ -1,0 +1,40 @@
+import { Router, type IRouter } from "express";
+import healthRouter from "./health";
+import profileRouter from "./profile";
+import departmentsRouter from "./departments";
+import designationsRouter from "./designations";
+import employeesRouter from "./employees";
+import attendanceRouter from "./attendance";
+import leaveRouter from "./leave";
+import payrollRouter from "./payroll";
+import performanceRouter from "./performance";
+import documentsRouter from "./documents";
+import announcementsRouter from "./announcements";
+import holidaysRouter from "./holidays";
+import dashboardRouter from "./dashboard";
+import reportsRouter from "./reports";
+import adminRouter from "./admin";
+import hrUsersRouter from "./hr-users";
+import cronRouter from "./cron";
+
+const router: IRouter = Router();
+
+router.use(healthRouter);
+router.use(profileRouter);
+router.use(departmentsRouter);
+router.use(designationsRouter);
+router.use(employeesRouter);
+router.use(attendanceRouter);
+router.use(leaveRouter);
+router.use(payrollRouter);
+router.use(performanceRouter);
+router.use(documentsRouter);
+router.use(announcementsRouter);
+router.use(holidaysRouter);
+router.use(dashboardRouter);
+router.use(reportsRouter);
+router.use(adminRouter);
+router.use(hrUsersRouter);
+router.use(cronRouter);
+
+export default router;
